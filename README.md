@@ -9,7 +9,10 @@ Critter & Guitari 5 Moons looper.
 - [ ] Isolate the HW interfaces so that same code can be run on the
       device and a computer, for ease of development. (Ideally with no
       modifications.)
-- [ ] Provide some sort of facsimile of the HW user interface in SW.
+      - [x] Isolate HW interfaces behind a single message abstraction
+      - [x] Have the original HW interface code us the same abstraction:
+            it just won't do anything if running on computer.
+      - [ ] Provide a facsimile of the HW user interface in PD
 
 ## Non-Goals
 
