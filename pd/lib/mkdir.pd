@@ -1,0 +1,17 @@
+#N canvas 27 27 450 300 12;
+#X obj 155 90 file mkdir;
+#X msg 93 149 \$1;
+#X obj 68 188 print mkdir;
+#X obj 267 186 print ERROR mkdir;
+#X msg 262 143 failed;
+#X obj 139 19 inlet;
+#X obj 195 255 outlet;
+#X obj 219 204 t b;
+#X connect 0 0 1 0;
+#X connect 0 0 7 0;
+#X connect 0 1 4 0;
+#X connect 0 1 7 0;
+#X connect 1 0 2 0;
+#X connect 4 0 3 0;
+#X connect 5 0 0 0;
+#X connect 7 0 6 0;
