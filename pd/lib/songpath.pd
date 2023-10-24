@@ -1,0 +1,14 @@
+#N canvas 508 282 484 342 12;
+#X obj 142 64 inlet;
+#X obj 135 158 text tolist SONGS;
+#X obj 145 205 list append;
+#X obj 168 255 file join;
+#X obj 168 294 outlet;
+#X obj 161 114 t b l;
+#X text 23 11 Constructs path to a directory or file under songs. Provide the tail end of the path through inlet as a list.;
+#X connect 0 0 5 0;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;
+#X connect 3 0 4 0;
+#X connect 5 0 1 0;
+#X connect 5 1 2 1;

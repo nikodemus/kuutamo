@@ -1,0 +1,14 @@
+#N canvas 135 135 555 434 12;
+#X obj 56 59 inlet;
+#X obj 57 176 list append;
+#X obj 139 129 symbol \$1.wav;
+#X obj 57 232 songpath;
+#X obj 60 290 outlet;
+#X text 21 9 Constructs path to a track given song number thru inlet and track number as creation argument.;
+#X obj 54 99 t f b;
+#X connect 0 0 6 0;
+#X connect 1 0 3 0;
+#X connect 2 0 1 1;
+#X connect 3 0 4 0;
+#X connect 6 0 1 0;
+#X connect 6 1 2 0;
