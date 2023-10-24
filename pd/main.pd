@@ -1621,7 +1621,7 @@
 #X connect 36 0 37 0;
 #X connect 38 0 39 0;
 #X restore 141 92 pd leds;
-#N canvas 385 28 851 695 GUI 1;
+#N canvas 385 28 851 695 GUI 0;
 #X obj 352 34 bng 17 250 50 0 empty empty empty 0 -9 0 10 #fcfcfc #000000 #000000;
 #X obj 637 34 bng 17 250 50 0 empty empty empty 0 -9 0 10 #fcfcfc #000000 #000000;
 #X text 637 12 Power;
@@ -1674,10 +1674,10 @@
 #X obj 474 178 s SW_KEY6;
 #X obj 610 178 s SW_KEY8;
 #X obj 540 178 s SW_KEY7;
-#X obj 89 209 cnv 20 20 20 empty LED1 empty 20 12 0 10 #006600 #fcfcfc 0;
-#X obj 223 209 cnv 20 20 20 empty LED2 empty 20 12 0 10 #006600 #fcfcfc 0;
+#X obj 89 209 cnv 20 20 20 empty LED1 empty 20 12 0 10 #020202 #fcfcfc 0;
+#X obj 223 209 cnv 20 20 20 empty LED2 empty 20 12 0 10 #020202 #fcfcfc 0;
 #X obj 350 209 cnv 20 20 20 empty LED3 empty 20 12 0 10 #020202 #fcfcfc 0;
-#X obj 492 209 cnv 20 20 20 empty LED4 empty 20 12 0 10 #006600 #fcfcfc 0;
+#X obj 492 209 cnv 20 20 20 empty LED4 empty 20 12 0 10 #020202 #fcfcfc 0;
 #X obj 636 209 cnv 20 20 20 empty LED5 empty 20 12 0 10 #020202 #fcfcfc 0;
 #X obj 88 572 r SW_LED1;
 #N canvas 54 54 450 300 sw-led-color 0;
@@ -1767,6 +1767,7 @@
 #X obj 89 178 s SW_KEY1;
 #X obj 249 149 bng 17 250 50 0 empty empty empty 0 -9 0 10 #fcfcfc #000000 #000000;
 #X symbolatom 85 47 38 0 0 0 - SW_STATUS - 0;
+#X text 19 3 KUUTAMO version 0.1 \; Unofficial firmware for Critter & Guitari's 5 Moons, f 70;
 #X connect 0 0 45 0;
 #X connect 1 0 73 0;
 #X connect 3 0 46 0;
@@ -1808,7 +1809,7 @@
 #X obj 377 325 tgl 17 0 empty empty empty 0 -9 0 10 #fcfcfc #000000 #000000 0 1;
 #X msg 377 357 \$1 5;
 #X obj 377 293 sel 1;
-#X text 19 3 KUUTAMO version 0 \; Unofficial firmware for Critter & Guitari's 5 Moons, f 70;
+#X text 19 3 KUUTAMO version 0.1 \; Unofficial firmware for Critter & Guitari's 5 Moons, f 70;
 #X connect 0 0 8 0;
 #X connect 0 0 40 0;
 #X connect 0 1 39 0;
