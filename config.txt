@@ -1,0 +1,27 @@
+- Dash starts a comment;
+- Semicolon ends a comment or a config option;
+- DO NOT USE COMMAS OR COLONS IN COMMENTS. ONLY PUNCTUATE
+  WITH DOTS. SORRY;
+- All config options have defaults and are explained with
+  comments following the line setting the default value;
+  
+MONITOR on;
+- on or off;
+- Sets initial state of monitor. Default is off;
+
+LOOP on;
+- on or off;
+- Sets initial state of looping. Default is off;
+
+STARTUP_SONG new;
+- first or last or new;
+- Sets current song on startup; 
+- first means number 1;
+- last means latest song by numerical order;
+- new means new song OR latest if it has no tracks;
+
+SONGFOLDER ../songs/;
+- path
+- Sets the song folder path relative to main.pd. Default
+  is ../songs/. The two dots mean "folder above". The slashes
+  are important. Don't leave them out;
