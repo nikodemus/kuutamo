@@ -1,0 +1,4 @@
+#N canvas 26 26 450 300 12;
+#X declare -path pd;
+#X obj 76 93 declare -path pd;
+#X obj 77 134 kuutamo;
